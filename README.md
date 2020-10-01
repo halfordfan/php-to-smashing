@@ -1,4 +1,4 @@
-# php-to-smashing
+# smashing-php-poster
 A couple of PHP functions to POST data to Smashing dashboards
 
 Edit the file to configure your auth token and Smashing URL, as well as an optional caching database.  The caching database serves two purposes: storing historical widget data in case of a restart where history is valuable (such as a time-series graph), and reducing rendering of widgets that are frequently updated but don't change often.
